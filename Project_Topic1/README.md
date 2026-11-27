@@ -17,7 +17,7 @@ All notebooks read and write files in the folder `Data/` (relative paths, so the
 | 07 | `07_database_sqlite.ipynb` | Stores the data in a SQLite database (2 tables) and runs SQL queries | `apartments_pre1990_enriched.csv` | `topic1_apartments.db` |
 | 07b | `07b_database_postgresql.ipynb` | Optional: the same database in **PostgreSQL** (tables with keys, index, view, SQL queries incl. `FILTER` and window functions) and a check that the data equal the SQLite database. Needs a running PostgreSQL server: run `bash Project_Topic1/setup_postgresql.sh` once in the Codespace terminal. Notebooks 08 and 09 do not depend on it. | `apartments_pre1990_enriched.csv`, `topic1_apartments.db` | PostgreSQL database `topic1` |
 | 08 | `08_exploratory_data_analysis.ipynb` | EDA (tables and plots), map, ANOVA, Chi-squared test, correlation analysis | `topic1_apartments.db` | `../map_apartments.html` |
-| 09 | `09_models.ipynb` | Multiple linear regression (2 models) and random forest, R², RMSE, cross-validation, interpretation | `topic1_apartments.db` | – |
+| 09 | `09_models.ipynb` | Multiple linear regression (2 models), random forest and regression tree, R², RMSE, cross-validation, robustness checks, interpretation | `topic1_apartments.db` | – |
 
 ## Data sources
 
